@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>0x1 Device</title>
+  <title>0x1</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/x-icon" href="logo.ico">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -12,10 +12,31 @@
   <header>
     <img src="logo.png" alt="0x1 Logo">
   </header>
-  
+  <section id="about">
+    <h2>What is 0x1?</h2>
+    <p>0x1 is a device that allows you to:</p>
+    <ul>
+        <li>Control anything you want by just pressing some buttons.</li>
+        <li>Feel like the main character.</li>
+        <li>Snap fingers like Thanos and flip the world.</li>
+    </ul>
+  </section>
+  <section id="device">
+    <h2>Main chip</h2>
+    <p>This device's main chip is the ESP32.</p>
+    <ul>
+      <li>The ESP32 has 520 kB of RAM and 4 MB FLASH (can be extended with a SD card)</li>
+      <li>It has WiFi and BLE 4.5 (Bluetooth Low Energy)</li>
+    </ul>
+    <p>Code</p>
+    <ul>
+      <li>Code can be uploaded to this device using the Arduino IDE.</li>
+      <li>The default code can be found <a href="https://sxftt.github.io/0x1/default0x1.ino" style="color: #b055ff; text-decoration: none;">here</a></li>
+    </ul>
+  </section>
   <section id="features">
     <h2>Features</h2>
-    <p>With 0x1, you can be the main character. 0x1s best features are:</p>
+    <p>0x1s best features are:</p>
     <ul>
       <li>Read and write NFC and RFID tags, as well as emulating them.</li>
       <li>Receiving and transmitting radio signals.</li>
@@ -40,18 +61,18 @@
     <p>A special device like this needs special components:</p>
     <ul>
       <li>Active Buzzer  5V</li>
-      <li>Push buttons (5 buttons)</li>
+      <li>Push buttons (5 buttons)</li> 
       <li>A few resistors</li>
       <li>RF 868MHz CC1101 Radio Module</li>
       <li>RFID NFC PN532 Reader</li>
       <li>Universal PCB 9x15 cm</li>
-      <li>ESP32 WiFi BLE 4.2 DevKitC Compatible Board</li>
+      <li>ESP32 WiFi BLE 4.2</li>
       <li>OLED Graphic Display 128x64px 0.96 inch</li>
       <li>Lithium Battery Charger TP4056 USB-C</li>
       <li>Infrared emmiter and receiver</li>
     </ul>
   </section>
-
+  
   <footer>
     <p>&copy; 2024 sxft. 0x1 device is owned by sxft tech.</p>
   </footer>
